@@ -22,3 +22,4 @@ public class Chapter06_07 {
 
 //자바에서는 String을 token단위로 끊을 수 있는 StringTokenizer클래스가 제공된다.
 // countTokens()는 남아있는 토큰의 갯수를 반환한다.
+// split(" ")을 이용하면, 빈칸에 따라 단어를 자른다. words.length로 배열의 길이 구하기.
