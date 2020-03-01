@@ -32,6 +32,7 @@ public class Chapter07_09 {
 
 		for (int n = 0; n < 3; n++)
 			System.out.println(stringStack.pop());
+		// LA가 가장 늦게 들어왔으므로 가장 먼저 빠져나간다.(출력된다.)
 
 		GStack<Integer> intStack = new GStack<Integer>();
 		intStack.push(1);
@@ -40,5 +41,7 @@ public class Chapter07_09 {
 
 		for (int n = 0; n < 3; n++)
 			System.out.println(intStack.pop());
+		// 5가 가장 늦게 들어왔으므로 가장 먼저 빠져나간다.(출력된다.)
 	}
 }
+// 스택은 가장 먼저 들어온 것이 가장 늦게 나가는 구조이다.
