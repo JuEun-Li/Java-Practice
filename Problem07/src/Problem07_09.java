@@ -16,13 +16,9 @@ public class Problem07_09 {
 
 		System.out.println("정수를 입력하시오>> ");
 		int n = scanner.nextInt();
-		/*
-		 * while (true) {
-		 * 
-		 * if (n == 0 || n < 0) { System.out.println("다시 입력하시오"); break; } }
-		 */
+	
 		readPlusInt(n);
-		
+		scanner.close();
 	}
 
 }
