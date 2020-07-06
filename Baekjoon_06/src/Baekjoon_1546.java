@@ -8,6 +8,7 @@ public class Baekjoon_1546 {
 		int total = 0;
 		int max = 0;
 		int score;
+		
 		for (int i = 0; i < n; ++i) {
 			score = sc.nextInt();
 			total += score;
