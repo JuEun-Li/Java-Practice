@@ -10,12 +10,13 @@ public class Baekjoon_8958 {
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		int[] result = new int[n];
-		int score = 0;
+		
 		scanner.nextLine();
 
 		for (int i = 0; i < n; i++) {
 			String a = scanner.nextLine();
-
+			int score = 0;
+			
 			for (int j = 0; j < a.length(); j++) {
 				if (a.charAt(j) == 'O') {
 					score = score + 1;
@@ -28,7 +29,6 @@ public class Baekjoon_8958 {
 			System.out.println(result[i]);
 
 		scanner.close();
-		System.out.println(score);
 	}
 
 }
