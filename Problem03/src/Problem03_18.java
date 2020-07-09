@@ -25,4 +25,5 @@ public class Problem03_18 {
 		scanner.close();
 	}
 
+	//오류를 잡기위해 임시변수 temp를 사용해볼 것.
 }
