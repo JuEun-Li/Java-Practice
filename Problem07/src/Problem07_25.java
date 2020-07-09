@@ -18,6 +18,7 @@ public class Problem07_25 {
 			if (a[i] != (Integer) null)
 				b[i] = a[i];
 		}
+		return b;
 	}
 
 	public static void main(String[] args) {
@@ -36,6 +37,12 @@ public class Problem07_25 {
 
 		System.out.print("삭제할 요소의 게수: ");
 		int del_end = scanner.nextInt();
+
+		int[] b = arrayRmvOfN(a, del_st, del_end);
+
+		for (int i = 0; i < b.length; i++) {
+			System.out.print("b[" + i + "]= ");
+		}
 	}
 
 }
