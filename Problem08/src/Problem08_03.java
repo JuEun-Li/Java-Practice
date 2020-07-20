@@ -26,6 +26,8 @@ class Car {
 	}
 }
 
+// 이하생략...
+
 public class Problem08_03 {
 
 	public static void main(String[] args) {
