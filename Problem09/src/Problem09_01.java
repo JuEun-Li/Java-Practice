@@ -30,7 +30,7 @@ public class Problem09_01 {
 	public static void main(String[] args) {
 
 	}
-
+//
 }
 
 // get은 필드 값을 가져오는 메소드이다.
