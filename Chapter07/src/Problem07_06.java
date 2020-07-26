@@ -27,7 +27,7 @@ class Location {
 		return latitude;
 	}
 
-	public void find_country(String city) {
+	public void find_country() {
 		System.out.println(city + "," + longitude + "," + latitude);
 	}
 }
@@ -73,7 +73,7 @@ public class Problem07_06 {
 			if (city.equals("±×¸¸"))
 				break;
 			Location l = hm.get(city);
-			l.find_country(city);
+			l.find_country();
 		}
 		scanner.close();
 
