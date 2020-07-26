@@ -1,5 +1,5 @@
 // 클래스 생성 기초
-class Human {
+class Human_1 {
 	String name;
 	int height;
 	int weight;
@@ -8,8 +8,8 @@ class Human {
 public class Problem08_01 {
 
 	public static void main(String[] args) {
-		Human gildong = new Human();
-		Human chulsu = new Human();
+		Human_1 gildong = new Human_1();
+		Human_1 chulsu = new Human_1();
 
 		gildong.name = "길동";
 		gildong.height = 180;
