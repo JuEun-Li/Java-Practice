@@ -22,6 +22,14 @@ class Account {
 	long balance() {
 		return balance;
 	} // 잔고 확인
+
+	void deposit(long k) {
+		balance -= k;
+	} // k원 입금
+	
+	void withdraw(long k) {
+		balance += k;
+	} // k원 출금
 }
 
 public class Problem09_03 {
