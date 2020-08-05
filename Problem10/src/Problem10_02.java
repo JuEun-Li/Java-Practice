@@ -1,6 +1,6 @@
  // Human 클래스에서 식별 번호와 관련된 처리만 추출해서, 일련 번호를 생성하는 id클래스 작성
 class ID {
-	static int counter = 0; // 몇 번까지 식별번호를 부여했는가
+	static int counter = 0; // 몇 번까지 식별번호를 부여했는가.
 	private int id; // 식별 번호
 	
 	public ID() {
